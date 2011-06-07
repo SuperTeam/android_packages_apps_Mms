@@ -28,13 +28,11 @@ import android.content.AsyncQueryHandler;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.provider.SearchRecentSuggestions;
 
 import android.provider.Telephony;
@@ -65,9 +63,6 @@ import com.android.mms.ui.ComposeMessageActivity;
 public class SearchActivity extends ListActivity
 {
     private AsyncQueryHandler mQueryHandler;
-
-    private SharedPreferences mPrefs;
-    private boolean mBlackBackground;
 
     // Track which TextView's show which Contact objects so that we can update
     // appropriately when the Contact gets fully loaded.
@@ -213,15 +208,7 @@ public class SearchActivity extends ListActivity
     public void onCreate(Bundle icicle)
     {
         super.onCreate(icicle);
-
-        mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
-        mBlackBackground = mPrefs.getBoolean(MessagingPreferenceActivity.BLACK_BACKGROUND, false);
-
-        if (!mBlackBackground) {
-            setContentView(R.layout.search_activity);
-        } else {
-            setContentView(R.layout.search_activity_black);
-        }
+        setContentView(R.layout.search_activity);
 
         String searchStringParameter = getIntent().getStringExtra(SearchManager.QUERY);
         if (searchStringParameter == null) {
@@ -303,10 +290,6 @@ public class SearchActivity extends ListActivity
                     public View newView(Context context, Cursor cursor, ViewGroup parent) {
                         LayoutInflater inflater = LayoutInflater.from(context);
                         View v = inflater.inflate(R.layout.search_item, parent, false);
-
-                        if (mBlackBackground) {
-                            v = inflater.inflate(R.layout.search_item_black, parent, false);
-                        }
                         return v;
                     }
 
