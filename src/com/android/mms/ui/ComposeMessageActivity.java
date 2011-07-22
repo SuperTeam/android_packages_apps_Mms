@@ -179,23 +179,6 @@ public class ComposeMessageActivity extends Activity
         implements View.OnClickListener, TextView.OnEditorActionListener,
         MessageStatusListener, Contact.UpdateListener, OnGesturePerformedListener {
 
-    // Phone Goggles block created for compatibility and demonstration to
-    // to external developers
-    private static Method phoneGoggles;
-    static {
-        try {
-            Class phoneGogglesClass = Class.forName("android.util.PhoneGoggles");
-            phoneGoggles = phoneGogglesClass.getMethod("processCommunication",
-                    new Class[] {Context.class, int.class, String[].class,
-                    Runnable.class, Runnable.class, int.class, int.class,
-                    int.class, int.class, int.class, int.class});
-
-        } catch (ClassNotFoundException e) {
-        } catch (SecurityException e) {
-        } catch (NoSuchMethodException e) {
-        }
-    }
-
     public static final int REQUEST_CODE_ATTACH_IMAGE     = 10;
     public static final int REQUEST_CODE_TAKE_PICTURE     = 11;
     public static final int REQUEST_CODE_ATTACH_VIDEO     = 12;
@@ -3383,31 +3366,7 @@ public class ComposeMessageActivity extends Activity
                 }
             };
 
-            if (phoneGoggles != null) {
-                try {
-                    phoneGoggles.invoke(null, this,
-                            1, // 1 for phone numbers, 2 for email addresses, 0 otherwise
-                            mConversation.getRecipients().getNumbers(),
-                            onRun, onCancel,
-                            R.string.dialog_phone_goggles_title,
-                            R.string.dialog_phone_goggles_title_unlocked,
-                            R.string.dialog_phone_goggles_content,
-                            R.string.dialog_phone_goggles_unauthorized,
-                            R.string.dialog_phone_goggles_ok,
-                            R.string.dialog_phone_goggles_cancel);
-
-                } catch (IllegalArgumentException e) {
-                    e.printStackTrace();
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                } catch (InvocationTargetException e) {
-                    e.printStackTrace();
-                }
-
-            // If the Phone Goggles API doesn't exist
-            } else {
-                onRun.run();
-            }
+            onRun.run();
         }
     }
 
