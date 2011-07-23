@@ -429,12 +429,4 @@
     <string name="template_cancel_confirm_text">您真的要取消吗？</string>
     <string name="gestures_already_present">警告：一个相似的手势会访问另一个模板！</string>
 
-    <!-- Phone goggles -->
-    <string name="toast_phone_goggles">您现在不允许发送信息。请稍候再试。</string>
-    <string name="dialog_phone_goggles_title">信息被阻止</string>
-    <string name="dialog_phone_goggles_title_unlocked">信息已授权</string>
-    <string name="dialog_phone_goggles_content">此时发送信息可能不明智。您确定要继续吗？</string>
-    <string name="dialog_phone_goggles_unauthorized">此时发送信息可能不明智。</string>
-    <string name="dialog_phone_goggles_ok">发送</string>
-    <string name="dialog_phone_goggles_cancel">保存草稿</string>
 </resources>

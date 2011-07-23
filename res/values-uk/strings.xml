@@ -401,11 +401,4 @@
     <string name="template_cancel_confirm_title">Увага</string>
     <string name="template_cancel_confirm_text">Скасувати?</string>
     <string name="gestures_already_present">Увага. Аналогічний жест пов\u2019язаний з іншим шаблоном!</string>
-    <string name="toast_phone_goggles">Вам не дозволено відправляти SMS у цей час. Будь ласка, повторіть спробу пізніше.</string>
-    <string name="dialog_phone_goggles_title">SMS заблоковано</string>
-    <string name="dialog_phone_goggles_title_unlocked">SMS санкційовано</string>
-    <string name="dialog_phone_goggles_content">Надсилання SMS може бути небажаним у цей час. Ви впевнені, що бажаєте продовжити?</string>
-    <string name="dialog_phone_goggles_unauthorized">Надсилання SMS може бути небажаним у цей час.</string>
-    <string name="dialog_phone_goggles_ok">Надіслати</string>
-    <string name="dialog_phone_goggles_cancel">Зберегти чернетку</string>
 </resources>

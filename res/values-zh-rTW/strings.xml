@@ -861,13 +861,5 @@
     <string name="template_cancel_confirm_text">您確定要刪除嗎？</string>
     <string name="gestures_already_present">警告：一個相似的手勢經已關聯到另一個模板！</string>
 
-    <!-- Phone goggles -->
-    <string name="toast_phone_goggles">現在不容許您發出簡訊，請稍後再試一次。</string>
-    <string name="dialog_phone_goggles_title">簡訊已被封鎖</string>
-    <string name="dialog_phone_goggles_title_unlocked">簡訊已被授權</string>
-    <string name="dialog_phone_goggles_content">此時此刻發出簡訊似乎並非明智之舉，您確定想要繼續嗎？</string>
-    <string name="dialog_phone_goggles_unauthorized">此刻發出簡訊似非明智之舉。</string>
-    <string name="dialog_phone_goggles_ok">傳送</string>
-    <string name="dialog_phone_goggles_cancel">儲存草稿</string>
 </resources>
 

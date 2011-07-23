@@ -398,11 +398,4 @@
     <string name="template_cancel_confirm_title">Varning</string>
     <string name="template_cancel_confirm_text">Vill du avbryta?</string>
     <string name="gestures_already_present">Varning: En liknande gest är associerad med en annan mall!</string>
-    <string name="toast_phone_goggles">Du tillåts inte skickas SMS just nu. Försök igen senare.</string>
-    <string name="dialog_phone_goggles_title">SMS blockerat</string>
-    <string name="dialog_phone_goggles_title_unlocked">SMS godkänt</string>
-    <string name="dialog_phone_goggles_content">Det kanske inte är så klokt att skicka ett SMS just nu. Är du säker på att du vill fortsätta?</string>
-    <string name="dialog_phone_goggles_unauthorized">Det kanske inte är så klokt att skicka ett SMS just nu.</string>
-    <string name="dialog_phone_goggles_ok">Skicka</string>
-    <string name="dialog_phone_goggles_cancel">Spara utkast</string>
 </resources>

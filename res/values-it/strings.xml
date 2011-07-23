@@ -441,12 +441,4 @@
     <string name="template_cancel_confirm_text">Vuoi davvero cancellare questo modello?</string>
     <string name="gestures_already_present">Attenzione! Una gesture simile è associata ad un altro template</string>
 
-    <!-- Phone goggles -->
-    <string name="toast_phone_goggles">Non ti è permesso inviare messaggi a quest\'ora. Riprova più tardi.</string>
-    <string name="dialog_phone_goggles_title">Messaggio bloccato</string>
-    <string name="dialog_phone_goggles_title_unlocked">Messaggio autorizzato</string>
-    <string name="dialog_phone_goggles_content">Può non esser saggio inviare messaggi a quest\'ora. Sicuro di voler continuare?</string>
-    <string name="dialog_phone_goggles_unauthorized">Può non esser saggio inviare messaggi a quest\'ora.</string>
-    <string name="dialog_phone_goggles_ok">Invia</string>
-    <string name="dialog_phone_goggles_cancel">Salva bozza</string>
 </resources>

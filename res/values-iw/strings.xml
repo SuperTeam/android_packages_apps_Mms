@@ -397,11 +397,5 @@
   <string name="template_cancel_confirm_title">אזהרה</string>
   <string name="template_cancel_confirm_text">האם ברצונך לבטל?</string>
   <string name="gestures_already_present">!אזהרה: תנועה דומה משוייכת לתבנית אחרת</string>
-  <string name="toast_phone_goggles">.אינך מורשה לשלוח סמס בזמן הזה. בבקשה נסה מאוחר יותר</string>
-  <string name="dialog_phone_goggles_title">סמס נחסם</string>
-  <string name="dialog_phone_goggles_title_unlocked">סמס מאושר</string>
-  <string name="dialog_phone_goggles_unauthorized">.שליחת סמס בזמן אינו מומלץ</string>
-  <string name="dialog_phone_goggles_ok">שלח</string>
-  <string name="dialog_phone_goggles_cancel">שמור טיוטה</string>
 </resources>
 

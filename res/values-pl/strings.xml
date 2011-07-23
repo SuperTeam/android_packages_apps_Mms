@@ -413,12 +413,4 @@
     <string name="template_cancel_confirm_title">Ostrzeżenie</string>
     <string name="template_cancel_confirm_text">Czy chcesz anulować?</string>
 
-    <!-- Phone goggles -->
-    <string name="toast_phone_goggles">Nie możesz teraz wysyłać wiadomości SMS. Spróbuj ponownie później.</string>
-    <string name="dialog_phone_goggles_title">Wiadomość zablokowana</string>
-    <string name="dialog_phone_goggles_title_unlocked">Wiadomość odblokowana</string>
-    <string name="dialog_phone_goggles_content">Wysyłanie wiadomości w tej chwili może być nierozsądne. Czy napewno chcesz kontynuować?</string>
-    <string name="dialog_phone_goggles_unauthorized">Wysyłanie wiadomości w tej chwili może być nierozsądne.</string>
-    <string name="dialog_phone_goggles_ok">Wyślij</string>
-    <string name="dialog_phone_goggles_cancel">Zapisz wersję roboczą</string>
 </resources>

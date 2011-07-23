@@ -409,11 +409,4 @@
     <string name="template_cancel_confirm_title">Внимание</string>
     <string name="template_cancel_confirm_text">Желаете отменить?</string>
     <string name="gestures_already_present">Предупреждение: похожий жест уже связан с другим шаблоном!</string>
-    <string name="toast_phone_goggles">Вы не можете отправить SMS в данный момент. Пожалуйста, повторите попытку позже.</string>
-    <string name="dialog_phone_goggles_title">SMS заблокировано</string>
-    <string name="dialog_phone_goggles_title_unlocked">SMS разрешена</string>
-    <string name="dialog_phone_goggles_content">Отправка SMS может быть не уместна в это время. Вы уверены, что хотите продолжить?</string>
-    <string name="dialog_phone_goggles_unauthorized">Отправка SMS может быть не уместна в это время.</string>
-    <string name="dialog_phone_goggles_ok">Отправить</string>
-    <string name="dialog_phone_goggles_cancel">Сохранить черновик</string>
 </resources>

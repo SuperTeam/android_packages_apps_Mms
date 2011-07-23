@@ -401,11 +401,4 @@
     <string name="template_cancel_confirm_title">Figyelmeztetés</string>
     <string name="template_cancel_confirm_text">Meg szeretné szakítani?</string>
     <string name="gestures_already_present">Figyelmeztetés: Már létezik egy hasonló gesztus egy másik sablonhoz rendelve!</string>
-    <string name="toast_phone_goggles">Jelenleg nem engedélyezett az SMS küldés. Kérjük, hogy próbálkozzon később.</string>
-    <string name="dialog_phone_goggles_title">SMS blokkolva</string>
-    <string name="dialog_phone_goggles_title_unlocked">SMS engedélyezve</string>
-    <string name="dialog_phone_goggles_content">Az SMS küldés jelenleg nem javasolt. Biztosan folytatni akarja?</string>
-    <string name="dialog_phone_goggles_unauthorized">Az SMS küldés lehet, hogy nem javasolt.</string>
-    <string name="dialog_phone_goggles_ok">Mentés</string>
-    <string name="dialog_phone_goggles_cancel">Mentés piszkozatként</string>
 </resources>

@@ -418,14 +418,6 @@
     <string name="template_cancel_confirm_text">취소하시겠습니까?</string>
     <string name="gestures_already_present">경고: 다른 서식에 비슷한 손동작이 연결되어있습니다.</string>
 
-    <!-- Phone goggles -->
-    <string name="toast_phone_goggles">이 시간에 메시지를 보내지 못하도록 설정되어 있습니다. 다음에 다시 시도해 주세요.</string>
-    <string name="dialog_phone_goggles_title">메시지 보내기 금지됨</string>
-    <string name="dialog_phone_goggles_title_unlocked">메시지 인증됨</string>
-    <string name="dialog_phone_goggles_content">이 시간에 메시지를 보내는 것은 좋지 못한 선택일 수도 있습니다. 계속하시겠습니까?</string>
-    <string name="dialog_phone_goggles_unauthorized">이 시간에 메시지를 보내는 것은 좋지 못한 선택일 수도 있습니다.</string>
-    <string name="dialog_phone_goggles_ok">보내기</string>
-    <string name="dialog_phone_goggles_cancel">임시보관</string>
 
     <!-- Settings item for SMS Split 160 characters setting -->
     <string name="pref_title_sms_split_160">메시지 나누기</string>

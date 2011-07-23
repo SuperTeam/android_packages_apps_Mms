@@ -418,14 +418,6 @@
     <string name="template_cancel_confirm_text">Você gostaria de cancelar?</string>
     <string name="gestures_already_present">Aviso: Um gesto similar está associado com outro tema!</string>
 
-    <!-- Phone goggles -->
-    <string name="toast_phone_goggles">Você não tem permissão para enviar SMS agora. Por favor tente mais tarde.</string>
-    <string name="dialog_phone_goggles_title">SMS bloqueado</string>
-    <string name="dialog_phone_goggles_title_unlocked">SMS autorizado</string>
-    <string name="dialog_phone_goggles_content">Enviando um SMS pode não ser uma boa idéia neste momento. Você tem certeza que deseja continuar?</string>
-    <string name="dialog_phone_goggles_unauthorized">Enviando um SMS pode não ser uma boa idéia neste momento.</string>
-    <string name="dialog_phone_goggles_ok">Enviar</string>
-    <string name="dialog_phone_goggles_cancel">Salvar Rascunho</string>
     <string name="cannot_find_contact">O contato que você selecionou não pode ser adicionado.</string>
 
     <string name="pref_title_sms_split_160">dividir SMS</string>

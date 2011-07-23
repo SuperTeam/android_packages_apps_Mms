@@ -433,12 +433,4 @@
     <string name="template_cancel_confirm_text">Möchstes du abbrechen?</string>
     <string name="gestures_already_present">Warnung: Eine ähnliche Geste ist mit einer anderen Vorlage verknüpft!</string>
 
-   <!-- Phone goggles -->
-    <string name="toast_phone_goggles">Du darfst zur Zeit keine SMS senden. Bitte später erneut versuchen.</string>
-    <string name="dialog_phone_goggles_title">SMS blockiert</string>
-    <string name="dialog_phone_goggles_title_unlocked">SMS erlaubt</string>
-    <string name="dialog_phone_goggles_content">Jetzt eine SMS zu senden wäre nicht sehr schlau. Sicher, dass du fortfahren willst?</string>
-    <string name="dialog_phone_goggles_unauthorized">Jetzt eine SMS zu senden wäre nicht sehr schlau.</string>
-    <string name="dialog_phone_goggles_ok">Senden</string>
-    <string name="dialog_phone_goggles_cancel">Entwurf speichern</string>
 </resources>
